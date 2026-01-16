@@ -6,7 +6,7 @@ public class Calculator {
         int res1 = add(100, 200);
         int res2 = sub(100, 200);
         int res3 = mul(100, 200);
-        double res4 = divide(10, 3);
+        double res4 = divide(100, 50);
 
         System.out.println("a + b = " + res1);
         System.out.println("a - b = " + res2);
