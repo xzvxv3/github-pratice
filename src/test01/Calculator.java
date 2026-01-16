@@ -6,10 +6,12 @@ public class Calculator {
         int res1 = add(100, 200);
         int res2 = sub(100, 200);
         int res3 = mul(100, 200);
+        double res4 = divide(10, 3);
 
         System.out.println("a + b = " + res1);
         System.out.println("a - b = " + res2);
         System.out.println("a * b = " + res3);
+        System.out.println("a / b = " + res4);
     }
 
     private static int add(int a, int b) {
@@ -22,5 +24,9 @@ public class Calculator {
 
     private static int mul(int a, int b) {
         return a * b;
+    }
+
+    private static double divide(int a, int b) {
+        return a / b;
     }
 }
